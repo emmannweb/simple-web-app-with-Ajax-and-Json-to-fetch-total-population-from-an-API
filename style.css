@@ -1,0 +1,93 @@
+.container-fluid.container_wrapper {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+
+.container_wrapper .overlay .gradient{
+    top:0; left:0; height: 100%; width: 100%; background-size:cover; z-index:4;position:relative;  background: rgba(32,124,229,1);
+    background: -moz-linear-gradient(-45deg, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 29%, rgba(155,190,224,1) 64%, rgba(155,190,224,1) 65%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(32,124,229,1)), color-stop(29%, rgba(32,124,229,1)), color-stop(64%, rgba(155,190,224,1)), color-stop(65%, rgba(155,190,224,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 29%, rgba(155,190,224,1) 64%, rgba(155,190,224,1) 65%);
+    background: -o-linear-gradient(-45deg, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 29%, rgba(155,190,224,1) 64%, rgba(155,190,224,1) 65%);
+    background: -ms-linear-gradient(-45deg, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 29%, rgba(155,190,224,1) 64%, rgba(155,190,224,1) 65%);
+    background: linear-gradient(135deg, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 29%, rgba(155,190,224,1) 64%, rgba(155,190,224,1) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#9bbee0', GradientType=1 );
+    opacity:.2
+}
+
+.container_wrapper .overlay{
+    background-image:url('images/app_img.jpg');
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    z-index:3;
+    position:absolute;
+}
+.container.container_box {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    z-index:10
+}
+
+.container_search .country,
+.container_search .date {
+    border: 0;
+    padding: 10px;
+    color: #207ce5;
+    font-size: 21px;
+}
+
+.container_search .country:active,
+.container_search .date:active {
+  border-color: #207ce5;
+}
+
+
+.container_search .country{
+  width: 50%;
+}
+
+.container_search .date {
+    width: 30%;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 21px;
+    border: 0;
+    background: #207ce5;
+    color: white;
+    width: 15%;
+}
+
+button:hover {
+    background: #207ce5;
+    opacity: .8;
+    color: black;
+    transition: ease-out 1s;
+}
+
+div#result {
+    padding: 81px;
+}
+
+div#result h3 {
+    text-align: center;
+}
+
+.remark p {
+    text-align: center;
+    padding: 10px;
+    background: #207ce5;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 63px 100px 120px;
+}
